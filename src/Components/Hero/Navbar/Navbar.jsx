@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className="navbar-links">
           <a href="#home">
-          <h2> Portfolio</h2>
+            <h2> Portfolio</h2>
           </a>
           <ul className="navbar-list">
             <li className="navbar-list-item">
@@ -41,9 +41,12 @@ const Navbar = () => {
           <h1>
             <BsMoonFill onClick={darkMode} />
           </h1>
-          <button className="navbar-button">
-            <a href="/resume.pdf" >Resume</a>
-          </button>
+          <a
+            href="/resume.pdf"
+            target="_blank"
+          >
+            <button className="navbar-button">Resume</button>
+          </a>
         </div>
       </div>
     </div>

@@ -47,9 +47,6 @@ const Who = () => {
             A creative designer and developer with a passion for the arts. And
             these are some Tech's I work with
           </p>
-          <button className="who-button">
-            <a href="#">See My Works</a>
-          </button>
         </div>
       </div>
     </div>

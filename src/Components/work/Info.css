@@ -57,7 +57,12 @@
   background-color: #c34eda;
   padding: 10px 20px;
   border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
   transition: all ease 0.1s;
+
   
 }
 .info-button:hover {
@@ -65,9 +70,7 @@
 }
 .info-button a {
   text-decoration: none;
-  color: white;
-  font-size: 15px;
-  font-weight: 600;
+  
 }
 
 .right-container {
@@ -164,6 +167,13 @@ box-shadow: 0 0 10px #c34eda;
   padding: 10px 20px;
   border-radius: 5px;
   color: white;
+  font-weight: 600;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.card-back  button a{
+   text-decoration: none;
+   color: white;
   font-weight: 600;
 }
 

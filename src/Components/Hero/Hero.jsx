@@ -26,16 +26,28 @@ const Hero = () => {
             I enjoy creating delightful, human-centered digital experiences.
           </p>
           <div className="social-icons">
-            <a href="#">
+            <a
+              href="https://github.com/therealruvais"
+              target="_blank"
+            >
               <BsGithub />
             </a>
-            <a href="#">
+            <a
+              href="https://www.linkedin.com/in/therealruvais/"
+              target="_blank"
+            >
               <BsLinkedin />
             </a>
-            <a href="#">
+            <a
+              href="https://twitter.com/Ruvais__"
+              target="_blank"
+            >
               <BsTwitter />
             </a>
-            <a href="#">
+            <a
+              href="https://www.instagram.com/____ruvais____/"
+              target="_blank"
+            >
               <BsInstagram />
             </a>
           </div>

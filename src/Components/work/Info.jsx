@@ -24,9 +24,12 @@ const Info = () => {
               functionality. Dive into a world where I transform ideas into
               seamless web experiences, one line of code at a time.
             </p>
-            <button className="info-button">
-              <a href="#">See My Works</a>
-            </button>
+            <a
+              href="https://github.com/therealruvais"
+              target="_blank"
+            >
+              <button className="info-button">See My Works</button>
+            </a>
           </div>
           <div className="right-container">
             <div className="card-container">
@@ -43,9 +46,12 @@ const Info = () => {
                       />
                     </div>
                     <div className="card-back">
-                      <h1 style={{color:`#fff`}} >{project.name}</h1>
+                      <h1 style={{ color: `#fff` }}>{project.name}</h1>
                       <h5>{project.desc}</h5>
-                      <button>GO</button>
+
+                      <button>
+                        <a href={project.link} target={project.target}>GO</a>
+                      </button>
                     </div>
                   </div>
                 </div>
