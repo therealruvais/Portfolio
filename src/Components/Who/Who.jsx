@@ -11,6 +11,7 @@ const Who = () => {
     "./tech/mongodb.png",
     "./tech/tailwind.png",
     "./tech/git.png",
+    "./tech/redux.png"
   ];
 
   return (
